@@ -1,0 +1,126 @@
+progress {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+progress::-webkit-progress-value {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+progress::-moz-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+#root {
+    max-width: 930px;
+    background:  white;
+    margin:  auto;
+}
+
+body {
+    background: grey;
+}
+
+#app-inner {
+    padding: 25px;
+}
+
+#player-inner {
+    text-align:  center;
+}
+
+#player-inner p {
+    display:  inline-block;
+    margin-left:  10px;
+    margin-right:  10px;
+}
+
+#mainProgressBar {
+    width: 50%;
+    margin-left: 20px;
+}
+progress, button {
+    cursor: pointer;
+}
+#search {
+    width:  100%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    height: 18px;
+    padding-left: 5px;
+    margin-bottom:  20px;
+}
+
+#trackList-inner {
+    text-align:  center;
+    padding: 20px;
+}
+
+p.trackName {
+    display:  inline-block;
+    margin:  0;
+    position:  relative;
+    z-index:  9;
+    left: 15px;
+}
+
+p.trackDuration {
+    display:  inline-block;
+    float:  right;
+    margin:  0;
+    position: relative;
+    z-index: 9;
+    right: 15px;
+}
+
+.track-inner {
+    text-align:  left;
+    height: 20px;
+    border: 2px solid grey;
+    width:  100%;
+    position:  relative;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.track-inner progress {
+    position:  absolute;
+    width:  100%;
+    opacity: 0.8;
+    z-index:  1;
+}
+
+
+.track-inner progress {
+    border: 0;
+    height: 20px;
+    border-radius: 0;
+    border-radius: 10px;
+}
+.track-inner progress::-webkit-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 0;
+}
+.track-inner progress::-webkit-progress-value {
+    border: 0;
+    height: 20px;
+    border-radius: 0;
+    transition: all 0.5s;
+}
+.track-inner progress::-moz-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 0;
+}
+div#player-inner * {transition: all 0.3s}
